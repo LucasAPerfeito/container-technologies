@@ -1,9 +1,9 @@
-cluster_name = "app-prod"
+cluster_name = "app-lucas"
 
-vpc_id = "vpc-0b2f6a5f9e087cda3"
+vpc_id = "vpc-0dcee16646817da54"
 
 subnets_id = [
-  "subnet-0fe2bf85d42f882df",
-  "subnet-0d3681cdc0e37222d",
-  "subnet-02914b6004821ac89"
+  "subnet-08c8c8cca48bafef5",
+  "subnet-0f9e916c3771c910c",
+  "subnet-05b2edebde18ed0c2"
 ]
