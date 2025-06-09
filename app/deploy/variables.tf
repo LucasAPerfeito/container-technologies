@@ -1,7 +1,7 @@
 variable "cluster_name" {
   description = "Nome do cluster ECS"
   type        = string
-  default     = "app-prod-cluster"
+  default     = "app-lucas-cluster"
 }
 
 variable "desired_count" {
@@ -18,5 +18,5 @@ variable "subnets_id" {
 variable "lb_name" {
   description = "Load Balancer Name"
   type        = string
-  default     = "app-prod-nlb"
+  default     = "app-lucas-nlb"
 }

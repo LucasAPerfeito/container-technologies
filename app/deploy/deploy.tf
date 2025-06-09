@@ -1,11 +1,11 @@
 data "aws_lb_target_group" "this" {
-  name = "app-prod-tg"
+  name = "app-lucas-tg"
 }
 
 data "aws_security_groups" "this" {
   filter {
     name   = "tag:Name"
-    values = ["app-prod-sg"]
+    values = ["app-lucas-sg"]
   }
 }
 
